@@ -16,7 +16,14 @@ def kind
     :scalene 
   end
   
-  if 
+  if a <= 0 || b <= 0 || c <= 0
+      raise TriangleError
+    end
+
+    if a + b <= c || a + c <= b || c + b <= a
+      raise TriangleError
+    end 
+  end 
   
   
   
