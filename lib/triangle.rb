@@ -8,5 +8,11 @@ def initialize(a, b, c)
 end 
 
 def kind 
-  if 
+  if a == b == c 
+    :equilateral 
+  elsif a == b || a == c || b == c 
+    :isosceles
+  else 
+    scalene 
+  end 
 end 
