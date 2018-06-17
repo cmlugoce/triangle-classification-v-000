@@ -8,7 +8,7 @@ def initialize(a, b, c)
 end 
 
 def kind 
-  if a == b && a == c && b == c
+  if a == b && a == c
     :equilateral 
   elsif a == b || a == c || b == c 
     :isosceles
