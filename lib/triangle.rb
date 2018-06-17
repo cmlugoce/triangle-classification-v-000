@@ -13,7 +13,7 @@ def kind
   elsif a == b || a == c || b == c 
     :isosceles
   else 
-    scalene 
+    :scalene 
   end 
   
   
