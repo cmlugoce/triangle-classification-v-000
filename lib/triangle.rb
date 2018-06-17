@@ -29,7 +29,7 @@ def kind
   
   
  class TriangleError < StandardError
-    # triangle error code
+    "Invalid triangle"
   end 
   
 end 
