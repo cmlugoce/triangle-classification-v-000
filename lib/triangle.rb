@@ -12,7 +12,7 @@ def kind
     :equilateral 
   elsif a == b || a == c || b == c 
     :isosceles
-  else 
+  else a != b && b != c && c != a
     :scalene 
   end
   
